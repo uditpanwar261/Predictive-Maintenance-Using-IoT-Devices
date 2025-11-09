@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+  <h2>📊 System Overview</h2>
+  <p>Track machine health trends and performance metrics.</p>
+  <canvas id="overviewChart"></canvas>
+</div>
+
+<script>
+const ctx = document.getElementById('overviewChart').getContext('2d');
+const gradient = ctx.createLinearGradient(0,0,0,400);
+gradient.addColorStop(0, '#22d3ee');
+gradient.addColorStop(1, '#fbbf24');
+
+const chart = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'],
+    datasets: [{ label: 'Machine Health (%)', data: [95,93,91,92,89,87,88], borderColor: gradient, fill: false, tension: 0.3 }]
+  },
+  options: { responsive: true, scales: { y: { beginAtZero: false, max: 100 } } }
+});
+setInterval(() => {
+  chart.data.datasets[0].data.shift();
+  chart.data.datasets[0].data.push(85 + Math.random() * 10);
+  chart.update();
+}, 3000);
+</script>
+{% endblock %}

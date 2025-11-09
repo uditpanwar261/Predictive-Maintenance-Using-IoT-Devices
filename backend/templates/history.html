@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+  <h2>📜 Prediction History</h2>
+  <table border="1" cellspacing="0" cellpadding="6" style="margin:auto;color:white;">
+    <tr><th>Time</th><th>VS1</th><th>TS1</th><th>TS2</th><th>TS3</th><th>TS4</th><th>Result</th></tr>
+    {% for row in history %}
+    <tr>
+      <td>{{ row.time }}</td>
+      <td>{{ row.VS1 }}</td>
+      <td>{{ row.TS1 }}</td>
+      <td>{{ row.TS2 }}</td>
+      <td>{{ row.TS3 }}</td>
+      <td>{{ row.TS4 }}</td>
+      <td>{{ row.result }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+{% endblock %}

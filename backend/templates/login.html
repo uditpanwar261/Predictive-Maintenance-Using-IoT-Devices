@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="auth-container">
+  <div class="auth-card">
+    <h2>🔐 Login</h2>
+    <p>Access your Predictive Maintenance Dashboard</p>
+
+    <form action="/login" method="POST">
+      <input type="email" name="email" placeholder="Enter your email" required>
+      <input type="password" name="password" placeholder="Enter your password" required>
+      <button type="submit" class="predict-btn">Login</button>
+    </form>
+
+    <p class="auth-footer">
+      Don’t have an account? 
+      <a href="/signup">Sign up here</a>
+    </p>
+  </div>
+</div>
+{% endblock %}

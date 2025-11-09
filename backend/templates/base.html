@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⚙️ Predictive Maintenance System</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <div class="left-icon" onclick="window.location.href='/login'">
+        <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Login" />
+      </div>
+      <div style="text-align:center; flex:1;">
+        <h1>⚙️ Predictive Maintenance System</h1>
+        <p>Empowering Industry 4.0 with AI-driven Maintenance</p>
+      </div>
+      <nav>
+        <button onclick="window.location.href='/'">Dashboard</button>
+        <button onclick="window.location.href='/predict'">Predict</button>
+        <button onclick="window.location.href='/history'">History</button>
+      </nav>
+    </div>
+  </header>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>

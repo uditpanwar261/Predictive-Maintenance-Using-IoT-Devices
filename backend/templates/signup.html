@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="auth-container">
+  <div class="auth-card">
+    <h2>🧾 Sign Up</h2>
+    <p>Create your Predictive Maintenance account</p>
+
+    <form action="/signup" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="password" name="password" placeholder="Create Password" required>
+      <button type="submit" class="predict-btn">Sign Up</button>
+    </form>
+
+    <p class="auth-footer">
+      Already have an account? 
+      <a href="/login">Login here</a>
+    </p>
+  </div>
+</div>
+{% endblock %}
