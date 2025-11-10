@@ -141,22 +141,6 @@ Now visit 👉 **[http://127.0.0.1:5000](http://127.0.0.1:5000)** in your browse
 | ![Dashboard](https://via.placeholder.com/350x180?text=Dashboard+Preview) | ![Prediction](https://via.placeholder.com/350x180?text=Prediction+Form) | ![History](https://via.placeholder.com/350x180?text=Prediction+History) |
 
 
----
-
-## ☁️ Deployment (Render / Heroku)
-
-### Render (Recommended)
-
-1. Create a [Render](https://render.com) account
-2. Connect your GitHub repository
-3. Configure:
-
-   * **Build Command:** `pip install -r requirements.txt`
-   * **Start Command:** `gunicorn app:app`
-4. Deploy and get your live URL 🌍
-
----
-
 ## 🧩 Future Enhancements
 
 * Integrate **live IoT sensors or MQTT stream**
