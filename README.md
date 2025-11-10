@@ -134,7 +134,7 @@ Now visit 👉 **[http://127.0.0.1:5000](http://127.0.0.1:5000)** in your browse
 
 | Dashboard                                                                | Prediction                                                              | History                                                                 |
 | ------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| ![Dashboard](https://via.placeholder.com/350x180?text=Dashboard+Preview) | ![Prediction](https://via.placeholder.com/350x180?text=Prediction+Form) | ![History](https://via.placeholder.com/350x180?text=Prediction+History) |
+| ![Dashboard](C:\Projects\Predictive Maintainance Using Iot Devices\UI_SS\dashboard.png) | ![Prediction](C:\Projects\Predictive Maintainance Using Iot Devices\UI_SS\predict.png) | ![History](C:\Projects\Predictive Maintainance Using Iot Devices\UI_SS\history.png) |
 
 
 ---
