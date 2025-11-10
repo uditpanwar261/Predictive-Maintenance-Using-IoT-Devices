@@ -1,23 +1,3 @@
-🔥 Perfect timing — now that your **Predictive Maintenance using IoT Devices** project is fully functional, let’s make a **professional, clean, and visually attractive README.md** that’ll make your GitHub repo stand out instantly.
-
-This README is designed to:
-✅ Impress recruiters
-✅ Showcase technical depth
-✅ Guide users to run and test your app easily
-
----
-
-## 🧾 Final README.md (Copy & Paste this in your root folder)
-
-Save this file as:
-
-```
-predictive-maintenance/README.md
-```
-
----
-
-```markdown
 # ⚙️ Predictive Maintenance using IoT Devices
 
 A **full-stack AI-powered web application** that predicts the **health and potential failure of industrial machines or vehicles** using simulated IoT sensor data (Temperature & Vibration).  
