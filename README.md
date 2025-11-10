@@ -5,6 +5,10 @@ Built with **Python (Flask)**, **Machine Learning**, and a sleek **HTML/CSS/Char
 
 ---
 
+### 🌍 Live Demo
+👉 [Predictive Maintenance App (Render)](https://predictive-maintenance-using-iot-devices-w1j0.onrender.com)
+
+
 ## 🧠 Project Overview
 
 Modern industries rely on **IoT sensors** to monitor equipment in real-time.  
@@ -136,22 +140,6 @@ Now visit 👉 **[http://127.0.0.1:5000](http://127.0.0.1:5000)** in your browse
 | ------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | ![Dashboard](C:\Projects\Predictive Maintainance Using Iot Devices\UI_SS\dashboard.png) | ![Prediction](C:\Projects\Predictive Maintainance Using Iot Devices\UI_SS\predict.png) | ![History](C:\Projects\Predictive Maintainance Using Iot Devices\UI_SS\history.png) |
 
-
----
-
-## ☁️ Deployment (Render / Heroku)
-
-### Render (Recommended)
-
-1. Create a [Render](https://render.com) account
-2. Connect your GitHub repository
-3. Configure:
-
-   * **Build Command:** `pip install -r requirements.txt`
-   * **Start Command:** `gunicorn app:app`
-4. Deploy and get your live URL 🌍
-
----
 
 ## 🧩 Future Enhancements
 
