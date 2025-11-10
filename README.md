@@ -136,7 +136,6 @@ Now visit 👉 **[http://127.0.0.1:5000](http://127.0.0.1:5000)** in your browse
 | ------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | ![Dashboard](https://via.placeholder.com/350x180?text=Dashboard+Preview) | ![Prediction](https://via.placeholder.com/350x180?text=Prediction+Form) | ![History](https://via.placeholder.com/350x180?text=Prediction+History) |
 
-> *(Replace these with actual screenshots from your project — upload them to GitHub and paste the URLs here)*
 
 ---
 
