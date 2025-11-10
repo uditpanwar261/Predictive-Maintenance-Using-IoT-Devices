@@ -5,6 +5,10 @@ Built with **Python (Flask)**, **Machine Learning**, and a sleek **HTML/CSS/Char
 
 ---
 
+### 🌍 Live Demo
+👉 [Predictive Maintenance App (Render)](https://predictive-maintenance-using-iot-devices-w1j0.onrender.com)
+
+
 ## 🧠 Project Overview
 
 Modern industries rely on **IoT sensors** to monitor equipment in real-time.  
